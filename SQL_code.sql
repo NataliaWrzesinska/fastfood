@@ -159,7 +159,7 @@ WITH HighVitaminMineralItems AS (
     FROM
         fastfood.fastfood
     WHERE
-        vit_a >= 10 AND vit_c >= 10 AND calcium >= 10 -- Zakładając, że 10% to graniczna wartość dla produktów bogatych w witaminy i składniki mineralne
+        vit_a >= 10 AND vit_c >= 10 AND calcium >= 10
 )
 SELECT
     restaurant,
